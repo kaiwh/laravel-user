@@ -1,0 +1,25 @@
+{
+    "name": "kaiwh/laravel-user",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaiwen",
+            "email": "test@test.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaiwh\\User\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaiwh\\User\\Providers\\UserServiceProvider"
+            ]
+        }
+    }
+}
