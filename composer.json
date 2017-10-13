@@ -9,6 +9,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "mews/captcha": "^2.1",
+        "kaiwh/laravel-admin": "~1.0",
+        "kaiwh/laravel-geo": "~1.0"
     },
     "autoload": {
         "psr-4": {
